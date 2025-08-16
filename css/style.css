@@ -1,0 +1,551 @@
+/* resetting css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(11, 13, 26);
+  font-family: Poppins, sans-serif;
+}
+/* nav bar */
+.navbar {
+  width: 100%;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  background-color: #353533ee;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  padding-left: 30px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  padding-right: 80px;
+  gap: 20px;
+}
+.nav-menu li {
+  list-style: none;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: #fffcff;
+  font-family: 400;
+  font-size: 16px;
+}
+
+/* styling main */
+
+.wrapper {
+  display: flex;
+  margin-top: 10px;
+}
+.hero {
+  display: flex;
+  padding: 50px;
+  gap: 2rem;
+  position: relative;
+}
+.hero-wrapper {
+  margin-top: 70px;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  width: 320px;
+  gap: 1px;
+  background-color: #1f1d1d;
+  border-radius: 7px;
+  padding: 5px;
+}
+.hero-section p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 17px;
+}
+.hero-section p span {
+  color: #ffffff;
+}
+.hero h1 {
+  padding-top: 10px;
+  color: #ffffff;
+  font-size: 72px;
+}
+.hero h1 span {
+  color: #00f6ff;
+}
+.home {
+  position: relative;
+}
+.home p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  padding-top: 30px;
+}
+.get {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  left: 35%;
+  top: 170px;
+  border: 2px solid #00f6ff;
+}
+.get span {
+  color: #00f6ff;
+  font-size: 20px;
+  padding-top: 40px;
+}
+.img img {
+  width: 600px;
+  height: 530px;
+}
+
+/* about us */
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  padding-top: 20px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.user h4 {
+  font-size: 40px;
+  color: #ffffff;
+}
+.user p {
+  font-size: 20px;
+  color: #00f6ff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+.content {
+  margin-top: 30px;
+}
+.content h2 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 600;
+}
+.content p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  padding-top: 30px;
+}
+.content button {
+  width: 140px;
+  height: 47px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #00f6ff;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.handle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.secured {
+  background-color: #0f332c;
+  padding: 7px;
+  border-radius: 30px;
+  width: 45px;
+  height: 45px;
+}
+.secured img {
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.handle h4 {
+  font-size: 18px;
+  color: #ffffff;
+}
+.handle p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  padding-top: 10px;
+}
+.handle:hover {
+  background-color: #5f5959;
+}
+
+/* feature section */
+
+.feature-section {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+.feature-img img {
+  width: 600px;
+  height: 500px;
+}
+.control {
+  margin-top: 100px;
+}
+.control h2 {
+  font-size: 48px;
+  color: #ffffff;
+}
+.control p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 25px;
+}
+.cash {
+  margin-top: 40px;
+}
+.cash img {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* clients */
+.planet {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+.planet h1 {
+  font-size: 48px;
+  color: #ffffff;
+}
+.planet p {
+  font-size: 18px;
+  padding-right: 15rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.money {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 100px;
+}
+.tool {
+  padding: 30px;
+  border-radius: 15px;
+  height: 320px;
+}
+.tool img {
+  margin-top: 10px;
+}
+.take {
+  color: #ffffff;
+  font-size: 21px;
+  padding-top: 40px;
+}
+.leader {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  gap: 1rem;
+}
+.leader h4 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #ffffff;
+}
+.leader p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.tool:hover {
+  background-color: #31303044;
+}
+.coin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  margin-top: 70px;
+}
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+.select-all {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #27222244;
+  box-shadow: 1px 1px 1px 1px #33323244;
+  padding: 40px;
+  border-radius: 15px;
+}
+.select-all h2 {
+  font-size: 48px;
+  color: #ffffff;
+}
+.select-all p {
+  font-size: 18px;
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.start button {
+  width: 140px;
+  height: 47px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #00f6ff;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-top: 35px;
+}
+
+/* footer section */
+
+.footer-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 17rem;
+  margin-top: 70px;
+}
+.footer-section p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  padding-top: 20px;
+}
+.footer-link {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+  margin-top: 20px;
+}
+.footer-link h4 {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.link-ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+.link-ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+}
+.link-ul a:hover {
+  color: #00f6ff;
+}
+.hoo {
+  padding: 40px;
+}
+.bank {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.bank p {
+  font-size: 18px;
+  color: #ffffff;
+}
+.right img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+ /* Responsive Design */
+ @media(max-width:768px){
+  .nav-menu{
+    display: none;
+  }
+  .navbar{
+    width: 1%;
+  }
+  .img img{
+width: 100%;
+height: 75%;
+  }
+
+  .hero{
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+  .get{
+    top: 100%;
+  }
+  .home h1{
+ font-size: 3rem;
+  }
+  .home p{
+    font-size: 15px;
+  }
+  .active{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+   
+
+  }
+  .feature-img img{
+    width: 330px;
+    height: 300px;
+  }
+  .about{
+ margin-right: 70px;
+  padding: 20px;
+  }
+  .user h4{
+    font-size: 20px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .content{
+    text-align: center;
+  }
+  .content h2{
+    font-size: 20px;
+  
+    
+  }
+  .content p{
+
+    font-size: 15px;
+  }
+  .control h2{
+    font-size: 20px;
+    text-align: center;
+
+  }
+  .control p{
+    text-align: center;
+    font-size: 15px;
+  }
+  .handle{
+    width: 90vw;
+    height: 150px;
+  
+  }
+  .handle h4{
+    font-size: 20px;
+  }
+  .handle p{
+    font-size: 15px;
+  }
+  .feature-section{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+  .planet{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+  .planet h1{
+    font-size: 25px;
+  }
+  .planet p{
+    text-align: center;
+    font-size: 16px;
+  padding: 0;
+  margin-top: 10px;
+  }
+  .money{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+  }
+  .tool{
+    width: 320px;
+    height: 350px;
+    font-size: 10px;
+  }
+  .leader img{
+    width: 25px;
+  }
+  .leader h4{
+    font-size: 15px;
+  }
+  .leader p{
+    font-size: 10px;
+  }
+  .coin{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .coin img{
+    width: 170px;
+  }
+  .start{
+     width: 100%;
+    
+   
+  }
+  .select-all {
+    
+     display: flex;
+    flex-direction: column;
+    
+   
+  }
+  .select-all h2,p{
+font-size: 30px;
+  }
+
+  .footer-header{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+.footer-link{
+  display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 3rem;
+}
+.hoo{
+  width: 80%;
+}
+
+ }
