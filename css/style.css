@@ -398,7 +398,19 @@ body {
     display: none;
   }
   .navbar{
-    width: 110%;
+    width: 88%;
+   
+  }
+  .logo{
+    padding: 0;
+  }
+  .logo img{
+    width: 20px;
+  }
+  .nav-container{
+ padding: 10px;
+ 
+ gap: 0;
   }
   .img img{
 width: 90%;
