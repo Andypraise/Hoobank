@@ -398,8 +398,12 @@ body {
     display: none;
   }
   .navbar{
-    width: 88%;
+    width: 87vw;
+    
    
+  }
+  body{
+    overflow: hidden;
   }
   .logo{
     padding: 0;
@@ -418,7 +422,7 @@ height: 70%;
   }
   .menu{
     display: block;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .hero{
@@ -593,4 +597,5 @@ font-size: 30px;
   width: 12px;
   margin: 2px;
 }
+
  }
