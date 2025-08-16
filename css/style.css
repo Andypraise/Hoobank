@@ -45,7 +45,11 @@ body {
   font-family: 400;
   font-size: 16px;
 }
-
+.menu{
+  display: none;
+  font-size: 25px;
+  color: white;
+}
 /* styling main */
 
 .wrapper {
@@ -394,11 +398,15 @@ body {
     display: none;
   }
   .navbar{
-    width: 1%;
+    width: 90%;
   }
   .img img{
 width: 90%;
 height: 70%;
+  }
+  .menu{
+    display: block;
+    font-size: 25px;
   }
 
   .hero{
