@@ -396,6 +396,15 @@ body {
  @media(max-width:768px){
   .nav-menu{
     display: none;
+     position: absolute;
+       right: 10px;
+       text-align: center;
+       border-radius: 10px;
+       width: 120px;
+       height: 160px;
+  top: 150%;
+  background-color:#1f1d1d;
+  
   }
   .navbar{
     width: 100vw;
@@ -420,7 +429,7 @@ height: 70%;
   }
   .menu{
     display: block;
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .hero{
@@ -465,12 +474,13 @@ height: 70%;
   .container{
     display: flex;
     flex-direction: column;
+    
   }
   .content{
     text-align: center;
   }
   .content h2{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
   
     
@@ -480,7 +490,7 @@ text-align: center;
     font-size: 15px;
   }
   .control h2{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 
   }
@@ -595,5 +605,51 @@ font-size: 30px;
   width: 12px;
   margin: 2px;
 }
+.visible{
+ 
+  display: block;
 
+
+}
+.visible li{
+  margin-top: 15px;
+  margin-left: 30px;
+    
+}
+.visible li a{
+  text-align: center;
+  font-size: 15px;
+}
+.visible{
+    -webkit-animation-name: andy;
+    animation-name: andy;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes andy{
+    0%{
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes andy{
+    0%{
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
  }
